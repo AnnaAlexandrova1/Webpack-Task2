@@ -1,0 +1,7 @@
+# Игнорируется каталог в корне рабочей директории
+/dist
+/node_modules
+
+
+# Optional npm cache directory
+.npm

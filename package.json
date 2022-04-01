@@ -1,0 +1,31 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "Ваш проект разросся и необходимо его разделить на модули. Модули помогают обеспечить изолированность кода и внести порядок в проект. Но для работы с модулями необходимо настроить загрузчик модулей (удостоверьтесь с помощью сервиса [caniuse.com](http://caniuse.com/) что модули поддерживаются не везде).",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaAlexandrova1/Webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaAlexandrova1/Webpack/issues"
+  },
+  "homepage": "https://github.com/AnnaAlexandrova1/Webpack#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "loader": "^2.1.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
